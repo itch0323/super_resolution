@@ -1,6 +1,12 @@
 import numpy as np
 import cv2
 import glob
+import os
+
+os.makedirs("train/img_128", exist_ok=True)
+os.makedirs("train/img_32", exist_ok=True)
+os.makedirs("train/bin_128", exist_ok=True)
+os.makedirs("train/bin_32", exist_ok=True)
 
 #データセットのディレクトリパスを入力
 paths = glob.glob("train/datasets/img_align_celeba/*")[:10000]

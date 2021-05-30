@@ -1,8 +1,6 @@
 import requests
 
 def download_file_from_google_drive(id, destination):
-    print("Downloading now...")
-    print("wait a minute")
     URL = "https://docs.google.com/uc?export=download"
 
     session = requests.Session()
@@ -32,5 +30,5 @@ def save_response_content(response, destination):
                 f.write(chunk)
 
 file_id = '0B7EVK8r0v71pZjFTYXZWM3FlRnM'
-destination = 'train/datasets.zip'
+destination = '../train/datasets.zip'
 download_file_from_google_drive(file_id, destination)

@@ -39,6 +39,13 @@ conda activate pytorch
 sh setup.sh
 ```
 
+### 【ダウンロードに失敗した場合】
+
+- ダウンロードできない場合はサイト<a href="https://www.kkaneko.jp/data/od/celeba.html">このサイト</a>の手順に従い、データセットをダウンロードし、下記スクリプトを実行してください。
+```
+python setup/create_datasets.py
+```
+
 <br>
 
 4. 超解像を実行します。
