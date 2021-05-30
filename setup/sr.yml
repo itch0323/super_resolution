@@ -1,0 +1,4 @@
+name: '[pytorch]'
+channels:
+  - defaults
+prefix: /home/higuchi/anaconda3/envs/[pytorch]
