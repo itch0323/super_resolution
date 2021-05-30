@@ -29,7 +29,7 @@ cd super_resolution
 2. ディレクトリを移動し、anacondaで作成した環境を読み込んで切り替えます。
 ```
 conda env create sr -f=setup/sr.yml
-conda activate sr
+conda activate pytorch
 ```
 
 <br>
