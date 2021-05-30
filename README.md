@@ -20,15 +20,16 @@ pytorchを使用して画像の超解像を実行できます。
 ## 使用方法(usage)
 1. リポジトリをクローンします。
 ```
-git clone
+git clone https://github.com/itch0323/super_resolution.git
+cd super_resolution
 ```
 
 <br>
 
 2. ディレクトリを移動し、anacondaで作成した環境を読み込んで切り替えます。
 ```
-conda env create -f=setup/sr.yml
-conda activate pytorch
+conda env create sr -f=setup/sr.yml
+conda activate sr
 ```
 
 <br>
