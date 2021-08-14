@@ -1,5 +1,5 @@
-# super resolution
-pytorchを使用して画像の超解像を実行できます。
+# super_resolution
+PyTorchを使用して画像の超解像を実行できます。
 
 このリポジトリではSRGAN<sup>1)</sup>とEDSR<sup>2)</sup>の2種類の超解像をサポートしています。
 
@@ -9,7 +9,7 @@ pytorchを使用して画像の超解像を実行できます。
 
 ## 実行環境(env)
 - Python 3.7.9
-- Pytorch 1.3.1
+- PyTorch 1.3.1
 - Numpy 1.19.2
 - Opencv 3.4.2
 - Matplotlib 3.3.2
